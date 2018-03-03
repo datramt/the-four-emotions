@@ -44,6 +44,7 @@ let cell = 10;
 function setup() {
   createCanvas(400, 400);
   angleMode(DEGREES);
+  noCursor();
   //vvv ideally, we could store the angry emote background in buffer vvv
   /*
   noCursor();
